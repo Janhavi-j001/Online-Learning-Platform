@@ -49,3 +49,14 @@ frontend/yarn-error.log*
 *.zip
 *.tar.gz
 *.rar
+
+# Backend specific
+backend/target/
+
+# Old microservices (if you want to keep them)
+user-service/target/
+course-service/target/
+lesson-service/target/
+quiz-service/target/
+enrollment-service/target/
+api-gateway/target/
